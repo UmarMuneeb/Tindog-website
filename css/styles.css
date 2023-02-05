@@ -1,0 +1,141 @@
+body{
+    font-family: 'Montserrat',
+        sans-serif;
+        font-weight: 500;
+        
+}
+   
+/* headings */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+h3{
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* paragraph */
+p{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+/* Title Section */
+#title {
+    background-color: #ff4c68;
+    color: white;
+
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 2.5rem;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav_link{
+    font-size: 1.2rem;
+}
+.title-image{
+    width: 30%;
+    transform: rotate(25deg);
+    
+    position: relative;
+}
+/* features section */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* Testimonials section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+/* PRicing Section  */
+#pricing{
+    padding: 100px;
+
+}
+/* Media Queries */
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+/* colored non colored sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.noncolored-section {
+    background-color: #fff;
+}
+/* footer */
+.social-icon {
+    margin: 20px 10px;
+}
+#footer{
+    text-align: center;
+}
+/* cta */
+#cta{
+    text-align:center;
+}
